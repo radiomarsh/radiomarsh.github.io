@@ -183,7 +183,7 @@
      }
      .onion-url-lock {
        transform: translateY(4px);
-       filter: invert(38%) sepia(65%) saturate(7500%) hue-rotate(28deg) brightness(104%) contrast(96%);
+       filter: invert(64%) sepia(14%) saturate(5217%) hue-rotate(31deg) brightness(93%) contrast(107%);
        display: inline-block;
        background-image: url(../onion-site-lock.svg?h=b66d07d8);
        width: 32px;
@@ -712,9 +712,9 @@ This page details how you can circumvent the censorship.</p>
       <div id="steps-container">
         <div id="step1" class="parent">
   <div class="child step-text">
-    <h2>Step 1: Download Tor Browser</h2>
-    <p>The safest and simplest way to download Tor Browser is from the official Tor Project website.
-<span id="os-span">For your operating system</span>, you can download <span id="browser-span">Tor Browser</span> from the link below:</p>
+    <h2>步驟 1 ：下載洋蔥路由瀏覽器</h2>
+    <p>下載洋蔥路由瀏覽器最安全且最簡單的方式是從 Tor 專案官方網站上
+<span id="os-span">對於你的作業系統</span>，你可以透過以下連結下載<span id="browser-span">洋蔥路由瀏覽器</span>：</p>
 
     
       <div id="download-tor-button">
@@ -725,10 +725,10 @@ This page details how you can circumvent the censorship.</p>
       <details class="collapsible-text">
         <summary class="no-marker">下載洋蔥路由瀏覽器遇到困難？<i class="chevron-down"></i></summary>
         <div class="details-container">
-          <p>There may be times when you cannot access the Tor Project website: for example, it could be blocked on your network.
-If this happens, you can use one of the alternative download methods listed below.</p>
-<h3>Mirrors</h3>
-<p>You can try downloading Tor Browser from one of the official mirrors, either through:</p>
+          <p>有時你會無法連線至 Tor 專案官網：例如，它遭到你的網絡阻擋。
+如果發生這種狀況，您可以利用下方任一替代方案來下載。</p>
+<h3>鏡像</h3>
+<p>你可以嘗試透過其中一個官方鏡像下載洋蔥路由瀏覽器，像是：</p>
 <ul>
 <li><a href="https://tor.eff.org/">https://tor.eff.org/</a></li>
 <li><a href="http://tor.calyxinstitute.org/">http://tor.calyxinstitute.org/</a></li>
@@ -763,18 +763,18 @@ GetTor is a service that automatically responds to messages with links to the la
 <div id="step2" class="parent">
   <div class="child step-text">
     <h2></h2>
-    <h2>Step 2: Connect to Tor</h2>
-<p>When you run Tor Browser for the first time, you will see the Connect to Tor window.
-This offers you the option to either connect directly to the Tor network, or to configure Tor Browser for your connection.
-There's a checkbox which asks whether you always want to get automatically connected to the Tor network, if this is the case, check the box.</p>
-<p>You should be able to start browsing the web using Tor Browser shortly after running the program, and clicking the “Connect” button if you are using it for the first time.</p>
+    <h2>步驟 2 ：連線至 Tor</h2>
+<p>當您首次執行洋蔥路由瀏覽器時，您會看到洋蔥路由連線視窗。
+此時您可以選擇直接連上洋蔥路由網路，或是針對洋蔥路由瀏覽器的連線進行特殊設定。
+此畫面中有個核取方塊，可以讓您選擇是否在每次開啟時自動連接上洋蔥路由網路。</p>
+<p>您應該可以在開啟洋蔥路由瀏覽器後直接開始瀏覽網路，如果是第一次使用，請點擊 「連線」 按鈕。</p>
 
     
     
       <details class="collapsible-text">
         <summary class="no-marker">連線至 Tor 遇到困難？<i class="chevron-down"></i></summary>
         <div class="details-container">
-          <p>Direct access to the Tor network may sometimes be blocked by your Internet Service Provider or by a government.
+          <p>有時候您的網路服務供應商或者是政府機關會封鎖洋蔥路由網路的連線。
 Tor Browser includes some circumvention tools for getting around these blocks.
 In such scenarios, simply configuring your browser to connect through a bridge should suffice.
 Bridges are simply relays that are private and harder to block.</p>
@@ -785,7 +785,7 @@ As of 22 December 2021, bridges bundled directly into Tor Browser are blocked in
 <ul>
 <li>Requesting a bridge from within Tor Browser on desktop: Settings &gt; Connection &gt; Bridges &gt; Request a bridge from torproject.org &gt; Solve the CAPTCHA</li>
 <li>Sending "/bridges" to the dedicated Telegram channel <a href="https://t.me/GetBridgesBot">@GetBridgesBot</a> and then adding the bridge address received manually via copy and paste in Tor Browser: Settings &gt; Connection &gt; Bridges &gt; Enter a bridge address you already know</li>
-<li>Visit <a href="https://bridges.torproject.org/">https://bridges.torproject.org/</a> and follow the instructions</li>
+<li>前往 <a href="https://bridges.torproject.org/">https://bridges.torproject.org/</a> 並依照指示</li>
 <li>Requesting a bridge via email: bridges@torproject.org from a Gmail or Riseup email address; and then adding the bridge address received manually via copy and paste in Tor Browser: Settings &gt; Connection &gt; Bridges &gt; Enter a bridge address you already know</li>
 <li>Connecting through Snowflake from within Tor Browser: Settings &gt; Connection &gt; Bridges &gt; Select a built-in bridge &gt; Snowflake</li>
 </ul>
@@ -794,7 +794,7 @@ As of 22 December 2021, bridges bundled directly into Tor Browser are blocked in
 <p>In the case that bridges bundled directly into Tor Browser are blocked, readers need to request a bridge via one of the following ways:</p>
 <ul>
 <li>Sending "/bridges" to the dedicated Telegram channel <a href="https://t.me/GetBridgesBot">@GetBridgesBot</a> and then adding the bridges lines received manually via copy and paste in Tor Browser: Config Bridge &gt; Provide a bridge I know</li>
-<li>Visit <a href="https://bridges.torproject.org/">https://bridges.torproject.org/</a> and follow the instructions</li>
+<li>前往 <a href="https://bridges.torproject.org/">https://bridges.torproject.org/</a> 並依照指示</li>
 <li>Requesting a bridge via email: bridges@torproject.org from a Gmail or Riseup email address; and then adding the bridges lines received manually via copy and paste in Tor Browser: Config Bridge &gt; Provide a bridge I know</li>
 <li>Connecting through Snowflake from within Tor Browser: Config Bridge &gt; Snowflake</li>
 </ul>
@@ -803,7 +803,7 @@ As of 22 December 2021, bridges bundled directly into Tor Browser are blocked in
 <p>In the case that bridges bundled directly into Tor Browser are blocked, you can request a bridge via one of the following ways:</p>
 <ul>
 <li>Sending "/bridges" to the dedicated Telegram channel <a href="https://t.me/GetBridgesBot">@GetBridgesBot</a> and then adding the bridges lines received manually via copy and paste in Tor Browser: Bridge Configuration &gt; Custom Bridges</li>
-<li>Visit <a href="https://bridges.torproject.org/">https://bridges.torproject.org/</a> and follow the instructions</li>
+<li>前往 <a href="https://bridges.torproject.org/">https://bridges.torproject.org/</a> 並依照指示</li>
 <li>Requesting a bridge via email: bridges@torproject.org from a Gmail or Riseup email address; and then adding the bridges lines received manually via copy and paste in Tor Browser: Bridge Configuration &gt; Custom Bridges</li>
 <li>Connecting through Snowflake from within Tor Browser: Bridge Configuration &gt; Snowflake</li>
 </ul>
@@ -821,9 +821,9 @@ As of 22 December 2021, bridges bundled directly into Tor Browser are blocked in
 <div id="step3" class="parent">
   <div class="child step-text">
     <h2></h2>
-    <h2>Step 3: Access the Onion Service</h2>
-<p>Onion services (formerly known as "hidden services") are services (like websites) that are only accessible through the Tor network.
-Just like any other website, you will need to know the address of an onion service in order to connect to it.
+    <h2>步驟 3 ：獲得洋蔥路由服務</h2>
+<p>洋蔥服務(舊名為「隱匿服務」)是指那些只能透過洋蔥路由網路連接上的網站服務。
+就像其他網站，你需要知道洋蔥路由的位址才能連線
 An onion address is a string of 56 mostly random letters and numbers, followed by ".onion".
 To learn more about Onion Services, visit the <a href="https://tb-manual.torproject.org/onion-services">Tor Browser Manual</a>.</p>
 <p>To access Маршо Радио's onion service, simply copy and paste the following URL onto Tor Browser:</p>
